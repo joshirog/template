@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{132792C3-5D29-4DA8-B998-CB81EBD1744B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/bin/MSBuild/Current/bin/Microsoft.Common.CurrentVersion.targets">
+    <Files>
+      <File FileName="src/Monkeylab.Templates.Application/Services/Customers/Queries/ReportCustomer/ReportCustomerHandler.cs" Line="31" Column="23" />
+      <File FileName="src/Monkeylab.Templates.Application/Services/Customers/Queries/ReportCustomer/ReportCustomerMapper.cs" Line="9" Column="1" />
+      <File FileName="../../../../../Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/bin/MSBuild/Current/bin/Microsoft.Common.CurrentVersion.targets" Line="2218" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Monkeylab.Templates" expanded="True" selected="True">
+            <Node name="src" expanded="True">
+              <Node name="Monkeylab.Templates.Application" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="Services" expanded="True">
+                  <Node name="Customers" expanded="True">
+                    <Node name="Commands" expanded="True" />
+                    <Node name="Queries" expanded="True">
+                      <Node name="ReportCustomer" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Monkeylab.Templates.Domain" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
+              <Node name="Monkeylab.Templates.Infrastructure" expanded="True">
+                <Node name="Persistences" expanded="True">
+                  <Node name="Repositories" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.src.Monkeylab.Templates.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

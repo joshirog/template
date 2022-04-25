@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Jose Luis Oshiro Gushiken",
+    "classifications": [
+      "Web",
+      "WebAPI"
+    ],
+    "name": "Monkeylab - NET 5 WebApi",
+    "description": "Clean Architecture NET 5 - API.",
+    "groupIdentity": "Dotnet.Custom.WebApi",
+    "identity": "Dotnet.Custom.WebApi.CSharp",
+    "shortName": "monkeylab-api",
+    "defaultName": "Monkeylab.Sample",
+    "tags": {
+      "language": "C#",
+      "type": "solution"
+    },
+    "sourceName": "Monkeylab.Templates",
+    "preferNameDirectory": true,
+    "primaryOutputs": [
+        { "path": "Monkeylab.Templates.sln" }
+    ]
+}

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.21
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{24116385-A2BE-4B41-B514-B8A843B978DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{93B1352A-B958-4569-BCFD-F2B9DC3772B9}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		doc\roadmap.md = doc\roadmap.md
+		doc\migrations.md = doc\migrations.md
+		doc\readme.md = doc\readme.md
+		doc\releases.md = doc\releases.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{04D24D8E-EE63-4AFA-B433-B67410D172C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monkeylab.Templates.Api", "src\Monkeylab.Templates.Api\Monkeylab.Templates.Api.csproj", "{132792C3-5D29-4DA8-B998-CB81EBD1744B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monkeylab.Templates.Domain", "src\Monkeylab.Templates.Domain\Monkeylab.Templates.Domain.csproj", "{4B979DA5-DA35-4D9F-A460-FB99074A8028}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monkeylab.Templates.Infrastructure", "src\Monkeylab.Templates.Infrastructure\Monkeylab.Templates.Infrastructure.csproj", "{4F247239-2791-4AF4-B796-9390A4C7A173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monkeylab.Templates.Application", "src\Monkeylab.Templates.Application\Monkeylab.Templates.Application.csproj", "{377796B0-F564-4165-B42D-820B967A0C09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{132792C3-5D29-4DA8-B998-CB81EBD1744B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132792C3-5D29-4DA8-B998-CB81EBD1744B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132792C3-5D29-4DA8-B998-CB81EBD1744B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132792C3-5D29-4DA8-B998-CB81EBD1744B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B979DA5-DA35-4D9F-A460-FB99074A8028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B979DA5-DA35-4D9F-A460-FB99074A8028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B979DA5-DA35-4D9F-A460-FB99074A8028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B979DA5-DA35-4D9F-A460-FB99074A8028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F247239-2791-4AF4-B796-9390A4C7A173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F247239-2791-4AF4-B796-9390A4C7A173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F247239-2791-4AF4-B796-9390A4C7A173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F247239-2791-4AF4-B796-9390A4C7A173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377796B0-F564-4165-B42D-820B967A0C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377796B0-F564-4165-B42D-820B967A0C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377796B0-F564-4165-B42D-820B967A0C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377796B0-F564-4165-B42D-820B967A0C09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E72BDE44-278E-42C7-8AB1-E052444D06FC}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{132792C3-5D29-4DA8-B998-CB81EBD1744B} = {24116385-A2BE-4B41-B514-B8A843B978DA}
+		{4B979DA5-DA35-4D9F-A460-FB99074A8028} = {24116385-A2BE-4B41-B514-B8A843B978DA}
+		{4F247239-2791-4AF4-B796-9390A4C7A173} = {24116385-A2BE-4B41-B514-B8A843B978DA}
+		{377796B0-F564-4165-B42D-820B967A0C09} = {24116385-A2BE-4B41-B514-B8A843B978DA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Monkeylab.Templates.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Monkeylab.Templates.Api.Controllers.CustomerController.GetCustomers">
+            <summary>
+            Get a list with all items.
+            </summary>
+            <response code="200">Returns a list with the available sample responses.</response>
+        </member>
+    </members>
+</doc>

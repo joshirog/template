@@ -1,0 +1,253 @@
+[2022-04-25 16:34:37.927] [INF] [] Starting up
+[2022-04-25 16:34:38.143] [INF] [HealthChecks.UI.Core.HostedService.UIInitializationHostedService] Initializing UI Database
+[2022-04-25 16:34:38.854] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:34:39.194] [INF] [HealthChecks.UI.Core.HostedService.UIInitializationHostedService] Saving healthchecks configuration to database
+[2022-04-25 16:34:39.457] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 1 entities to in-memory store.
+[2022-04-25 16:34:40.655] [INF] [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:5001
+[2022-04-25 16:34:40.655] [INF] [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5000
+[2022-04-25 16:34:40.814] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:34:40.909] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:34:40.914] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:34:41.332] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:34:42.015] [WRN] [Microsoft.EntityFrameworkCore.Model.Validation] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2022-04-25 16:34:42.340] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:34:43.186] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 1859.7697ms
+[2022-04-25 16:34:43.221] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 2304.1915ms - 200
+[2022-04-25 16:34:43.222] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 2320.4784ms - 200
+[2022-04-25 16:34:43.825] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:34:53.841] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:34:53.842] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:34:53.842] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:34:53.851] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:34:53.880] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:34:53.940] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 88.7434ms
+[2022-04-25 16:34:53.940] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 97.8345ms - 200
+[2022-04-25 16:34:53.940] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 98.2067ms - 200
+[2022-04-25 16:34:53.978] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:34:55.604] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/swagger - -
+[2022-04-25 16:34:55.606] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/swagger - - - 301 0 - 2.2818ms
+[2022-04-25 16:34:55.610] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+[2022-04-25 16:34:55.655] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 45.0510ms
+[2022-04-25 16:34:55.704] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui.css - -
+[2022-04-25 16:34:55.760] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+[2022-04-25 16:34:55.831] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+[2022-04-25 16:34:55.883] [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-04-25 16:34:55.884] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 143821 text/css 179.9147ms
+[2022-04-25 16:34:55.940] [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-04-25 16:34:55.940] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 109.3326ms
+[2022-04-25 16:34:55.958] [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-04-25 16:34:55.958] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 197.8089ms
+[2022-04-25 16:34:56.389] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+[2022-04-25 16:34:56.439] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/swagger/favicon-32x32.png - -
+[2022-04-25 16:34:56.440] [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2022-04-25 16:34:56.440] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 0.6411ms
+[2022-04-25 16:34:56.556] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.9989ms
+[2022-04-25 16:35:01.280] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v2/swagger.json - -
+[2022-04-25 16:35:01.359] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 78.6231ms
+[2022-04-25 16:35:03.984] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:35:03.985] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:03.985] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:04.011] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:35:04.074] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:35:04.126] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 116.2372ms
+[2022-04-25 16:35:04.127] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 141.8071ms - 200
+[2022-04-25 16:35:04.127] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 142.1898ms - 200
+[2022-04-25 16:35:04.130] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:35:14.136] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:35:14.137] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:14.137] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:14.167] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:35:14.194] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:35:14.236] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 69.7832ms
+[2022-04-25 16:35:14.236] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 99.4147ms - 200
+[2022-04-25 16:35:14.237] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 100.1313ms - 200
+[2022-04-25 16:35:14.240] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:35:24.247] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:35:24.247] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:24.247] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:24.298] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:35:24.347] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:35:24.367] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 69.5645ms
+[2022-04-25 16:35:24.388] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 140.4843ms - 200
+[2022-04-25 16:35:24.388] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 141.0315ms - 200
+[2022-04-25 16:35:24.390] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:35:34.396] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:35:34.397] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:34.397] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:34.446] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:35:34.496] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:35:34.541] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 119.8756ms
+[2022-04-25 16:35:34.541] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 144.3791ms - 200
+[2022-04-25 16:35:34.566] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 144.7717ms - 200
+[2022-04-25 16:35:34.568] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:35:44.575] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:35:44.576] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:44.576] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:44.579] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:35:44.656] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:35:44.697] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 117.4709ms
+[2022-04-25 16:35:44.698] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 121.4979ms - 200
+[2022-04-25 16:35:44.698] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 122.6192ms - 200
+[2022-04-25 16:35:44.700] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:35:54.706] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:35:54.707] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:54.707] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:35:54.757] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:35:54.838] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:35:54.877] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 144.2444ms
+[2022-04-25 16:35:54.879] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 172.0887ms - 200
+[2022-04-25 16:35:54.879] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 172.261ms - 200
+[2022-04-25 16:35:54.881] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:36:04.887] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:36:04.888] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:04.888] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:04.891] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:36:04.918] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:36:04.939] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 48.3310ms
+[2022-04-25 16:36:04.939] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 51.5274ms - 200
+[2022-04-25 16:36:04.940] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 51.7555ms - 200
+[2022-04-25 16:36:04.944] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:36:14.949] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:36:14.949] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:14.949] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:14.997] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:36:15.024] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:36:15.089] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 114.1108ms
+[2022-04-25 16:36:15.113] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 140.5295ms - 200
+[2022-04-25 16:36:15.138] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 188.9722ms - 200
+[2022-04-25 16:36:15.140] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:36:25.145] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:36:25.146] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:25.146] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:25.171] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:36:25.247] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:36:25.284] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 113.1035ms
+[2022-04-25 16:36:25.284] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 138.4735ms - 200
+[2022-04-25 16:36:25.285] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 139.5245ms - 200
+[2022-04-25 16:36:25.288] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:36:35.293] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:36:35.294] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:35.294] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:35.297] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:36:35.301] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:36:35.321] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 24.4398ms
+[2022-04-25 16:36:35.322] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 27.1707ms - 200
+[2022-04-25 16:36:35.322] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 28.078ms - 200
+[2022-04-25 16:36:35.324] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:36:45.328] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:36:45.328] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:45.328] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:45.438] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:36:45.464] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:36:45.524] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 86.3528ms
+[2022-04-25 16:36:45.525] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 196.5011ms - 200
+[2022-04-25 16:36:45.525] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 196.9427ms - 200
+[2022-04-25 16:36:45.528] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:36:55.533] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:36:55.533] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:55.533] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:36:55.536] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:36:55.560] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:36:55.576] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 40.4153ms
+[2022-04-25 16:36:55.578] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 44.6834ms - 200
+[2022-04-25 16:36:55.578] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 45.3139ms - 200
+[2022-04-25 16:36:55.580] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:39:53.453] [INF] [] Starting up
+[2022-04-25 16:39:53.660] [INF] [HealthChecks.UI.Core.HostedService.UIInitializationHostedService] Initializing UI Database
+[2022-04-25 16:39:54.327] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:39:54.471] [INF] [HealthChecks.UI.Core.HostedService.UIInitializationHostedService] Saving healthchecks configuration to database
+[2022-04-25 16:39:54.583] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 1 entities to in-memory store.
+[2022-04-25 16:39:55.622] [INF] [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:5001
+[2022-04-25 16:39:55.622] [INF] [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5000
+[2022-04-25 16:39:55.723] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:39:55.771] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:39:55.772] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:39:56.044] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:39:56.426] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+[2022-04-25 16:39:56.710] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 281.9905ms
+[2022-04-25 16:39:56.994] [WRN] [Microsoft.EntityFrameworkCore.Model.Validation] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2022-04-25 16:39:57.024] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+[2022-04-25 16:39:57.165] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.7816ms
+[2022-04-25 16:39:57.232] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:39:57.959] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 1918.1999ms
+[2022-04-25 16:39:57.974] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 2198.3568ms - 200
+[2022-04-25 16:39:57.975] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 2208.2033ms - 200
+[2022-04-25 16:39:58.438] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:40:08.452] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:40:08.454] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:08.454] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:08.458] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:40:08.536] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:40:08.560] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 101.5140ms
+[2022-04-25 16:40:08.585] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 106.0355ms - 200
+[2022-04-25 16:40:08.585] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 130.5011ms - 200
+[2022-04-25 16:40:08.607] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:40:18.616] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:40:18.617] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:18.617] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:18.645] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:40:18.669] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:40:18.694] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 49.8685ms
+[2022-04-25 16:40:18.694] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 77.6566ms - 200
+[2022-04-25 16:40:18.695] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 77.842ms - 200
+[2022-04-25 16:40:18.745] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:40:28.749] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:40:28.750] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:28.750] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:28.751] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:40:28.803] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:40:28.892] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 141.9505ms
+[2022-04-25 16:40:28.893] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 142.9447ms - 200
+[2022-04-25 16:40:28.893] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 143.0776ms - 200
+[2022-04-25 16:40:28.898] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:40:31.459] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001//health - -
+[2022-04-25 16:40:31.527] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001//health - - - 404 0 - 67.9041ms
+[2022-04-25 16:40:35.515] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/health - -
+[2022-04-25 16:40:35.519] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/health - - - 200 - text/html 4.0229ms
+[2022-04-25 16:40:35.541] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ui/resources/healthchecksui-min.css - -
+[2022-04-25 16:40:35.544] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ui/resources/healthchecksui-min.css - - - 200 - text/css 2.7085ms
+[2022-04-25 16:40:35.668] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ui/resources/healthchecks-bundle.js - -
+[2022-04-25 16:40:35.668] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ui/resources/vendors-dll.js - -
+[2022-04-25 16:40:35.721] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ui/resources/vendors-dll.js - - - 200 - text/javascript 53.0396ms
+[2022-04-25 16:40:35.721] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ui/resources/healthchecks-bundle.js - - - 200 - text/javascript 53.0862ms
+[2022-04-25 16:40:35.773] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/health-api/ui-settings - -
+[2022-04-25 16:40:35.784] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico - -
+[2022-04-25 16:40:35.785] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/favicon.ico - - - 404 0 - 1.0562ms
+[2022-04-25 16:40:35.787] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:40:35.866] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/health-api/ui-settings - - - 200 - application/json 92.8627ms
+[2022-04-25 16:40:35.894] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/health-api - -
+[2022-04-25 16:40:35.897] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:40:35.900] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/health-api - - - 200 - application/json 5.5693ms
+[2022-04-25 16:40:38.894] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:40:38.894] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:38.894] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:38.909] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:40:38.916] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:40:39.039] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/health-api/ui-settings - -
+[2022-04-25 16:40:39.041] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:40:39.043] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/health-api/ui-settings - - - 200 - application/json 3.8315ms
+[2022-04-25 16:40:39.055] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 146.2497ms
+[2022-04-25 16:40:39.055] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 161.1759ms - 200
+[2022-04-25 16:40:39.055] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 161.3745ms - 200
+[2022-04-25 16:40:39.060] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:40:39.072] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/health-api - -
+[2022-04-25 16:40:39.073] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:40:39.076] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/health-api - - - 200 - application/json 3.7150ms
+[2022-04-25 16:40:49.057] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:40:49.057] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:49.057] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:49.108] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:40:49.158] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:40:49.201] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 117.6108ms
+[2022-04-25 16:40:49.201] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 143.6837ms - 200
+[2022-04-25 16:40:49.201] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 143.869ms - 200
+[2022-04-25 16:40:49.205] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.
+[2022-04-25 16:40:59.206] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+[2022-04-25 16:40:59.206] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] Start processing HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:59.206] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Sending HTTP request GET "https://localhost:5001/"
+[2022-04-25 16:40:59.264] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+[2022-04-25 16:40:59.315] [INF] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 5.0.16 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: NoTracking SensitiveDataLoggingEnabled MigrationsAssembly=Monkeylab.Templates.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[2022-04-25 16:40:59.386] [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - application/json 122.7544ms
+[2022-04-25 16:40:59.390] [INF] [System.Net.Http.HttpClient.health-checks.ClientHandler] Received HTTP response headers after 183.8631ms - 200
+[2022-04-25 16:40:59.390] [INF] [System.Net.Http.HttpClient.health-checks.LogicalHandler] End processing HTTP request after 184.1641ms - 200
+[2022-04-25 16:40:59.394] [INF] [Microsoft.EntityFrameworkCore.Update] Saved 2 entities to in-memory store.

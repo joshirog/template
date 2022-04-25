@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Monkeylab.Templates.Domain/1.0.0": {
+        "runtime": {
+          "Monkeylab.Templates.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Monkeylab.Templates.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

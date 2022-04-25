@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Persistences\Migrations" />
+    <Folder Include="Services\Externals" />
+    <Folder Include="Services\Internals" />
+    <Folder Include="Tasks" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Monkeylab.Templates.Application\Monkeylab.Templates.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
+  </ItemGroup>
+
+</Project>
